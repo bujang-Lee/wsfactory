@@ -10,6 +10,10 @@ h1 {
     height: 288px;
     border: 5px ridge red;
 }
+#btn {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
 .button {
     text-decoration:none;
     display:inline-block;
@@ -17,7 +21,7 @@ h1 {
     font-size:30px;
     color:white;
     padding:10px 20px 10px 20px;
-    margin:20px;
+    margin: 10px 80px 10px 80px;
     text-shadow: 0px -2px rgba(0,0,0, 0.44);
     font-family: 'Lobster', cursive;
     transition:all 0.1s;
