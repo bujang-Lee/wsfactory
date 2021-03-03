@@ -10,6 +10,9 @@ h1 {
     height: 288px;
     border: 5px ridge red;
 }
+#fire img:hover {
+    border-color: purple;
+}
 #btn {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
