@@ -12,7 +12,7 @@ var imgFrameColor = {
         document.querySelector('img').style.borderColor = color;
     }
 }
-function move(self) {
+function imgFrame(self) {
     if (self.value == 'blue') {
         imgFrameColor.blue('blue');
     }
