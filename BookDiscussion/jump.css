@@ -1,0 +1,14 @@
+figure {
+  animation-duration: 3s;
+  animation-name: book_jump;
+}
+
+@keyframes book_jump {
+  0% {
+    margin-left: 80%;
+    /* width: 55%; */
+  }
+  50% {
+    margin: 30px;
+  }
+}
